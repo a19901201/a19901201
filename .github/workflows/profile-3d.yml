@@ -11,11 +11,20 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v3
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - name: Install dependencies
+        run: npm install -g github-profile-3d-contrib
+      - name: Generate 3D Contribution Graph
+        run: github-profile-3d-contrib
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
       - name: Commit & Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
@@ -24,5 +33,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "generated"
-            git push
+            git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository_owner }}/GitHub-Profile-3D-Contrib.git HEAD:main
           fi
