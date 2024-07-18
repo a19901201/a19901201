@@ -11,11 +11,13 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v3
+      - name: Set GITHUB_TOKEN
+        run: echo "GITHUB_TOKEN=${{ secrets.PERSONAL_ACCESS_TOKEN }}" >> $GITHUB_ENV
       - name: Generate 3D Contribution Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        with:
-          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          username: ${{ github.repository_owner }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
       - name: Commit & Push
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
