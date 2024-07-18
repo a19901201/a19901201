@@ -24,4 +24,4 @@ jobs:
           git config user.email "github-actions@github.com"
           git add -A .
           git commit -m "generated" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository_owner }}/GitHub-Profile-3D-Contrib.git HEAD:main
+          git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository_owner }}/$(basename $GITHUB_REPOSITORY).git HEAD:main
