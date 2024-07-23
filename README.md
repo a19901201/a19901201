@@ -5,7 +5,6 @@
 <img src="https://img.shields.io/badge/Vue.js-4FC08D?logo=vue.js&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white" />
 <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" />
 <img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white" />
 <img src="https://img.shields.io/badge/Cloudflare-F48120?logo=cloudflare&logoColor=white" />
@@ -41,4 +40,5 @@
 <img src="https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=white" />
 <img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white" />
 </div>
