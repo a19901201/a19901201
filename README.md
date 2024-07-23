@@ -20,19 +20,11 @@
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" />
 </div>
 <div>
-<img src="https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/HTML5-5E5E5E?logo=html5&logoColor=E34F26" />
 <img src="https://img.shields.io/badge/CSS3-3E8EDE?logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white" />
-<img src="https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white" />
-<img src="https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white" />
 <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" />
-<img src="https://img.shields.io/badge/Kali-557C94?logo=kalilinux&logoColor=white" />
-<img src="https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=white" />
-<img src="https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white" />
-<img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white" />
 <img src="https://img.shields.io/badge/OpenVPN-EA7E20?logo=openvpn&logoColor=white" />
 <img src="https://img.shields.io/badge/LINE-00C300?logo=line&logoColor=white" />
 <img src="https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=white" />
