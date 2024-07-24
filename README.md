@@ -2,7 +2,7 @@
 <img src="https://img.shields.io/badge/Python-blue?logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" />
 <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?logo=vue.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Vue-4FC08D?logo=vue.js&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" />
 <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" />
