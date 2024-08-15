@@ -1,4 +1,7 @@
-<div>
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=550&lines=Hello%2C+I'm+a19901201.;A+passionate+developer+from+Shutokou%2C+Taiwan.;I+help+you+do+awesome+stuff.%F0%9F%9A%80" alt="Typing SVG" />
+</div>
+<div align="center">
 <img src="https://img.shields.io/badge/Python-blue?logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" />
 <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" />
@@ -12,14 +15,16 @@
 <img src="https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white" />
 <img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white" />
 </div>
-<div>
-  <img height="165" align="left" src="https://github-profile-trophy.vercel.app/?username=a19901201&theme=matrix&row=2&column=5" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=a19901201&show_icons=true&rank_icon=github&locale=zh-tw&count_private=true&bg_color=000&title_color=00cc00&text_color=00cc00&icon_color=00cc00&include_all_commits=true" />
+<div align="center">
+  <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+    <img height="165" src="https://github-profile-trophy.vercel.app/?username=a19901201&theme=matrix&row=2&column=5" style="margin: 10px;" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=a19901201&show_icons=true&rank_icon=github&locale=zh-tw&count_private=true&bg_color=000&title_color=00cc00&text_color=00cc00&icon_color=00cc00&include_all_commits=true" style="margin: 10px;" />
+  </div>
 </div>
-<div>
+<div align="center">
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" />
 </div>
-<div>
+<div align="center">
 <img src="https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/HTML5-5E5E5E?logo=html5&logoColor=E34F26" />
