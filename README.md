@@ -11,7 +11,7 @@
 <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" />
 <img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white" />
 <img src="https://img.shields.io/badge/Cloudflare-F48120?logo=cloudflare&logoColor=white" />
-<img src="https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=white" />
+<img src="https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white" />
 <img src="https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white" />
 <img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white" />
 </div>
@@ -25,6 +25,15 @@
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" />
 </div>
 <div align="center">
+<img src="https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=white" />
+<img src="https://img.shields.io/badge/Apache-D22128?logo=apache&logoColor=white" />
+<img src="https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=white" />
+<img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=white" />
+</div>
+<div align="center">
 <img src="https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/HTML5-5E5E5E?logo=html5&logoColor=E34F26" />
@@ -32,10 +41,4 @@
 <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" />
 <img src="https://img.shields.io/badge/OpenVPN-EA7E20?logo=openvpn&logoColor=white" />
 <img src="https://img.shields.io/badge/LINE-00C300?logo=line&logoColor=white" />
-<img src="https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=white" />
-<img src="https://img.shields.io/badge/Apache-D22128?logo=apache&logoColor=white" />
-<img src="https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=white" />
-<img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white" />
 </div>
