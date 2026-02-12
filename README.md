@@ -18,7 +18,6 @@
 <div align="center">
   <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
     <img height="165" src="https://github-profile-trophy-kannan.vercel.app/?username=a19901201&theme=matrix&row=2&column=5" style="margin: 10px;" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=a19901201&show_icons=true&rank_icon=github&locale=zh-tw&count_private=true&bg_color=000&title_color=00cc00&text_color=00cc00&icon_color=00cc00&include_all_commits=true" style="margin: 10px;" />
   </div>
 </div>
 <div align="center">
