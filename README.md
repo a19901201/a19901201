@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=a19901201&show_icons=true&hide_border=true&title_color=5bcdec&icon_color=5bcdec&text_color=ffffff&bg_color=0D1117" alt="Stats" />
-  </div>
+  <img src="https://github-readme-snake.vercel.app/api?username=a19901201&bg_color=0D1117&color_snake=5BCDEC&color_dots=161b22" alt="snake" />
+</div>
 <div align="center">
   <h3>💻 Languages & Scripting</h3>
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
