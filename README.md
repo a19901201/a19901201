@@ -1,9 +1,5 @@
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=a19901201&theme=dark&hide_border=true&background=0D1117&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
-  
-  <br/>
-  
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=a19901201&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true&area=true" alt="Activity Graph" />
+  <img src="https://raw.githubusercontent.com/a19901201/a19901201/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 </div>
 <div align="center">
   <h3>💻 Languages & Scripting</h3>
