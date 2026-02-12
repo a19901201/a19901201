@@ -2,6 +2,10 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=550&lines=Hello%2C+I'm+a19901201.;A+passionate+developer+from+Shutokou%2C+Taiwan.;I+help+you+do+awesome+stuff.%F0%9F%9A%80" alt="Typing SVG" />
 </div>
 
+<div align="center" style="margin: 20px 0;">
+  <img src="https://github-readme-stats.vercel.app/api?username=a19901201&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" alt="a19901201's GitHub stats" height="170" style="margin-right: 10px;" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=a19901201&layout=compact&theme=react&hide_border=true&bg_color=0D1117&langs_count=6&exclude_repo=top-langs-readme-stats" alt="Top Languages" height="170" />
+</div>
 <div align="center">
   <h3>💻 Languages & Scripting</h3>
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
