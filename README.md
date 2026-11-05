@@ -22,36 +22,34 @@
   <img src="https://raw.githubusercontent.com/a19901201/a19901201/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 </div>
 <div align="center">
-  <a href="https://github.com/a19901201/mcp-telegram-agent">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=a19901201&repo=mcp-telegram-agent&theme=tokyo-night&hide_border=true" alt="Featured Project" />
-  </a>
+  <h3>⭐ Featured Project</h3>
+  <p><strong>mcp-telegram-agent</strong> — Give your AI agent full Telegram Bot superpowers. A Model Context Protocol server with rich keyboards, local files, media albums and interactive widgets. Run instantly with <code>uvx mcp-telegram-agent</code>.</p>
+  <a href="https://github.com/a19901201/mcp-telegram-agent"><img src="https://img.shields.io/badge/GitHub-Repository-58A6FF?style=flat-square&logo=github&logoColor=white" alt="Repository" /></a>
+  <a href="https://pypi.org/project/mcp-telegram-agent/"><img src="https://img.shields.io/badge/PyPI-mcp--telegram--agent-blue?style=flat-square&logo=pypi&logoColor=white" alt="PyPI" /></a>
+  <a href="https://github.com/a19901201/mcp-telegram-agent/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License" /></a>
 </div>
 
 <details>
   <summary>🔧 Tech Stack</summary>
-  <p align="center">
-    <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" />
-    <img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white" />
-    <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?logo=googlegemini&logoColor=white" />
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=white" />
-    <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
-  </p>
+  <div align="center">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+    <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+    <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" />
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  </div>
 </details>
 
 <div align="center">
   <h3>📊 GitHub Stats</h3>
-  <img src="https://github-readme-stats.vercel.app/api?username=a19901201&show_icons=true&theme=tokyo-night&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=a19901201&layout=compact&theme=tokyo-night&hide_border=true" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=a19901201&theme=tokyonight" alt="Profile Details" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=a19901201&theme=tokyonight" alt="Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=a19901201&theme=tokyonight" alt="Top Languages" />
 </div>
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=a19901201&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <h3>📈 Activity Graph</h3>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=a19901201&theme=react-dark&hide_border=true&area=true" alt="Activity Graph" />
 </div>
 
 <div align="center">
