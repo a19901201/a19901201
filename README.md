@@ -6,7 +6,9 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2200&pause=800&color=58A6FF&center=true&vCenter=true&width=760&height=50&lines=Building%20AI%20Applications%20with%20MCP%20Servers;Automating%20Workflows%20with%20Aider%20%26%20Cline;Orchestrating%20Agents%20with%20Dify;Turning%20Ideas%20into%20Tools" alt="Typing SVG" />
 </div>
 
-## 👋 Hi, I'm PCKuo
+<div align="center">
+  <h2>👋 Hi, I'm PCKuo</h2>
+</div>
 
 <div align="center">
   <h3>🤖 AI & Agent Workflow</h3>
@@ -19,23 +21,29 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/a19901201/a19901201/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
-</div>
-<div align="center">
   <h3>⭐ Featured Project</h3>
-  <p><strong>mcp-telegram-agent</strong> — Give your AI agent full Telegram Bot superpowers. A Model Context Protocol server with rich keyboards, local files, media albums and interactive widgets. Run instantly with <code>uvx mcp-telegram-agent</code>.</p>
-  <a href="https://github.com/a19901201/mcp-telegram-agent"><img src="https://img.shields.io/badge/GitHub-Repository-58A6FF?style=flat-square&logo=github&logoColor=white" alt="Repository" /></a>
-  <a href="https://pypi.org/project/mcp-telegram-agent/"><img src="https://img.shields.io/badge/PyPI-mcp--telegram--agent-blue?style=flat-square&logo=pypi&logoColor=white" alt="PyPI" /></a>
-  <a href="https://github.com/a19901201/mcp-telegram-agent/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/a19901201/mcp-telegram-agent">
+    <img src="https://img.shields.io/badge/mcp--telegram--agent-MCP_Telegram_Bot_Agent-58A6FF?style=for-the-badge&logo=telegram&logoColor=white" alt="mcp-telegram-agent" />
+  </a>
+  <p><i>Give your AI agent full Telegram Bot superpowers — an MCP server with rich keyboards, local files, media albums and interactive widgets.</i></p>
+  <p><code>uvx mcp-telegram-agent</code></p>
+  <a href="https://github.com/a19901201/mcp-telegram-agent">
+    <img src="https://img.shields.io/badge/GitHub-Repository-58A6FF?style=flat-square&logo=github&logoColor=white" alt="Repository" />
+  </a>
+  <a href="https://pypi.org/project/mcp-telegram-agent/">
+    <img src="https://img.shields.io/badge/PyPI-mcp--telegram--agent-blue?style=flat-square&logo=pypi&logoColor=white" alt="PyPI" />
+  </a>
+  <a href="https://github.com/a19901201/mcp-telegram-agent/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License" />
+  </a>
 </div>
 
 <details>
   <summary>🔧 Tech Stack</summary>
+  <br />
   <div align="center">
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
     <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
-    <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
-    <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" />
     <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   </div>
@@ -44,12 +52,10 @@
 <div align="center">
   <h3>📊 GitHub Stats</h3>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=a19901201&theme=tokyonight" alt="Profile Details" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=a19901201&theme=tokyonight" alt="Stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=a19901201&theme=tokyonight" alt="Top Languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=a19901201&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://raw.githubusercontent.com/a19901201/a19901201/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 </div>
 
 <div align="center">
