@@ -1,0 +1,47 @@
+name: Generate Trophy
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Checkout trophy generator
+        uses: actions/checkout@v4
+        with:
+          repository: ryo-ma/github-profile-trophy
+          path: trophy-generator
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Generate trophy svg locally
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_README }}
+          GITHUB_TOKEN1: ${{ secrets.MY_README }}
+          GITHUB_TOKEN2: ${{ secrets.MY_README }}
+        run: |
+          deno run --allow-net --allow-env --allow-read --allow-write ./trophy-generator/render_svg.ts a19901201 . matrix
+
+      - name: Commit trophy svg
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          ls -lh *.svg
+          git add trophy.svg
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit"
+          else
+            git commit -m "generated trophy"
+            git push
+          fi
