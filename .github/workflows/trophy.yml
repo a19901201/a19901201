@@ -12,10 +12,10 @@ jobs:
       contents: write
     steps:
       - name: Checkout profile repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Checkout trophy generator
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: ryo-ma/github-profile-trophy
           path: trophy-generator
@@ -31,7 +31,7 @@ jobs:
           GITHUB_TOKEN1: ${{ secrets.MY_README }}
           GITHUB_TOKEN2: ${{ secrets.MY_README }}
         run: |
-          deno run --allow-net --allow-env --allow-read --allow-write ./trophy-generator/render_svg.ts a19901201 . matrix
+          deno run --allow-net --allow-env --allow-read --allow-write ./trophy-generator/render_svg.ts a19901201 ./trophy.svg matrix
 
       - name: Commit trophy svg
         run: |
