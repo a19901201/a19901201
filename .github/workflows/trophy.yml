@@ -28,8 +28,6 @@ jobs:
       - name: Generate trophy svg locally
         env:
           GITHUB_TOKEN: ${{ secrets.MY_README }}
-          GITHUB_TOKEN1: ${{ secrets.MY_README }}
-          GITHUB_TOKEN2: ${{ secrets.MY_README }}
         run: |
           deno run --allow-net --allow-env --allow-read --allow-write ./trophy-generator/render_svg.ts a19901201 ./trophy.svg matrix
 
