@@ -7,46 +7,106 @@
 </div>
 
 <div align="center">
-  <h2>👋 Hi, I'm PCKuo</h2>
+  <h4>🌐 Language / 語言切換 — 點擊下方面板切換語言（Click a panel below to switch）</h4>
+  <p><a href="#english-overview">🇬🇧 English (Default)</a> ｜ <a href="#%F0%9F%87%B9%F0%9F%87%BC-繁體中文版本">🇹🇼 繁體中文</a></p>
 </div>
 
-<div align="center">
-  <h3>🤖 AI & Agent Workflow</h3>
-  <img src="https://img.shields.io/badge/MCP-Model_Context_Protocol-58A6FF?style=flat-square" alt="MCP" />
-  <img src="https://img.shields.io/badge/Aider-AI_Coding_Assistant-7C3AED?style=flat-square" alt="Aider" />
-  <img src="https://img.shields.io/badge/Dify-LLM_App_Platform-00B84F?style=flat-square" alt="Dify" />
-  <img src="https://img.shields.io/badge/Cline-AI_Coding_Agent-FF6B35?style=flat-square" alt="Cline" />
-  <img src="https://img.shields.io/badge/OpenAI-GPT-412991?style=flat-square" alt="OpenAI" />
-  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square" alt="Gemini" />
-</div>
-
-<div align="center">
-  <h3>⭐ Featured Project</h3>
-  <a href="https://github.com/a19901201/mcp-telegram-agent">
-    <img src="https://img.shields.io/badge/mcp--telegram--agent-MCP_Telegram_Bot_Agent-58A6FF?style=for-the-badge&logo=telegram&logoColor=white" alt="mcp-telegram-agent" />
-  </a>
-  <p><i>Give your AI agent full Telegram Bot superpowers — an MCP server with rich keyboards, local files, media albums and interactive widgets.</i></p>
-  <p><code>uvx mcp-telegram-agent</code></p>
-  <a href="https://github.com/a19901201/mcp-telegram-agent">
-    <img src="https://img.shields.io/badge/GitHub-Repository-58A6FF?style=flat-square&logo=github&logoColor=white" alt="Repository" />
-  </a>
-  <a href="https://pypi.org/project/mcp-telegram-agent/">
-    <img src="https://img.shields.io/badge/PyPI-mcp--telegram--agent-blue?style=flat-square&logo=pypi&logoColor=white" alt="PyPI" />
-  </a>
-  <a href="https://github.com/a19901201/mcp-telegram-agent/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License" />
-  </a>
-</div>
-
-<details>
-  <summary>🔧 Tech Stack</summary>
+<details open id="english-overview">
+  <summary>🇬🇧 <b>English (Default)</b> — click to collapse</summary>
   <br />
+
   <div align="center">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" />
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+    <h2>👋 Hi, I'm PCKuo</h2>
   </div>
+
+  <div align="center">
+    <h3>🤖 AI &amp; Agent Workflow</h3>
+    <img src="https://img.shields.io/badge/MCP-Model_Context_Protocol-58A6FF?style=flat-square" alt="MCP" />
+    <img src="https://img.shields.io/badge/Aider-AI_Coding_Assistant-7C3AED?style=flat-square" alt="Aider" />
+    <img src="https://img.shields.io/badge/Dify-LLM_App_Platform-00B84F?style=flat-square" alt="Dify" />
+    <img src="https://img.shields.io/badge/Cline-AI_Coding_Agent-FF6B35?style=flat-square" alt="Cline" />
+    <img src="https://img.shields.io/badge/OpenAI-GPT-412991?style=flat-square" alt="OpenAI" />
+    <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square" alt="Gemini" />
+  </div>
+
+  <div align="center">
+    <h3>⭐ Featured Project</h3>
+    <a href="https://github.com/a19901201/mcp-telegram-agent">
+      <img src="https://img.shields.io/badge/mcp--telegram--agent-MCP_Telegram_Bot_Agent-58A6FF?style=for-the-badge&logo=telegram&logoColor=white" alt="mcp-telegram-agent" />
+    </a>
+    <p><i>Give your AI agent full Telegram Bot superpowers — an MCP server with rich keyboards, local files, media albums and interactive widgets.</i></p>
+    <p><code>uvx mcp-telegram-agent</code></p>
+    <a href="https://github.com/a19901201/mcp-telegram-agent">
+      <img src="https://img.shields.io/badge/GitHub-Repository-58A6FF?style=flat-square&logo=github&logoColor=white" alt="Repository" />
+    </a>
+    <a href="https://pypi.org/project/mcp-telegram-agent/">
+      <img src="https://img.shields.io/badge/PyPI-mcp--telegram--agent-blue?style=flat-square&logo=pypi&logoColor=white" alt="PyPI" />
+    </a>
+    <a href="https://github.com/a19901201/mcp-telegram-agent/blob/main/LICENSE">
+      <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License" />
+    </a>
+  </div>
+
+  <details>
+    <summary>🔧 Tech Stack</summary>
+    <br />
+    <div align="center">
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+    </div>
+  </details>
+
+</details>
+
+<details id="繁體中文版本">
+  <summary>🇹🇼 <b>繁體中文版本</b> — 點擊展開</summary>
+  <br />
+
+  <div align="center">
+    <h2>👋 你好，我是 PCKuo</h2>
+  </div>
+
+  <div align="center">
+    <h3>🤖 AI 與 Agent 工作流</h3>
+    <img src="https://img.shields.io/badge/MCP-Model_Context_Protocol-58A6FF?style=flat-square" alt="MCP" />
+    <img src="https://img.shields.io/badge/Aider-AI_Coding_Assistant-7C3AED?style=flat-square" alt="Aider" />
+    <img src="https://img.shields.io/badge/Dify-LLM_App_Platform-00B84F?style=flat-square" alt="Dify" />
+    <img src="https://img.shields.io/badge/Cline-AI_Coding_Agent-FF6B35?style=flat-square" alt="Cline" />
+    <img src="https://img.shields.io/badge/OpenAI-GPT-412991?style=flat-square" alt="OpenAI" />
+    <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square" alt="Gemini" />
+  </div>
+
+  <div align="center">
+    <h3>⭐ 精選專案</h3>
+    <a href="https://github.com/a19901201/mcp-telegram-agent">
+      <img src="https://img.shields.io/badge/mcp--telegram--agent-MCP_Telegram_Bot_Agent-58A6FF?style=for-the-badge&logo=telegram&logoColor=white" alt="mcp-telegram-agent" />
+    </a>
+    <p><i>賦予你的 AI Agent 完整的 Telegram Bot 超能力——一個支援豐富鍵盤、本地檔案、媒體相簿與互動元件的 MCP 伺服器。</i></p>
+    <p><code>uvx mcp-telegram-agent</code></p>
+    <a href="https://github.com/a19901201/mcp-telegram-agent">
+      <img src="https://img.shields.io/badge/GitHub-Repository-58A6FF?style=flat-square&logo=github&logoColor=white" alt="Repository" />
+    </a>
+    <a href="https://pypi.org/project/mcp-telegram-agent/">
+      <img src="https://img.shields.io/badge/PyPI-mcp--telegram--agent-blue?style=flat-square&logo=pypi&logoColor=white" alt="PyPI" />
+    </a>
+    <a href="https://github.com/a19901201/mcp-telegram-agent/blob/main/LICENSE">
+      <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License" />
+    </a>
+  </div>
+
+  <details>
+    <summary>🔧 技術堆疊</summary>
+    <br />
+    <div align="center">
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+    </div>
+  </details>
+
 </details>
 
 <div align="center">
