@@ -18,12 +18,54 @@
 <div align="center">
   <h3>🤖 AI 與 Agent 工作流</h3>
   <img src="https://img.shields.io/badge/MCP-Model_Context_Protocol-58A6FF?style=flat-square" alt="MCP" />
-  <img src="https://img.shields.io/badge/Aider-AI_Coding_Assistant-7C3AED?style=flat-square" alt="Aider" />
   <img src="https://img.shields.io/badge/Dify-LLM_App_Platform-00B84F?style=flat-square" alt="Dify" />
   <img src="https://img.shields.io/badge/Cline-AI_Coding_Agent-FF6B35?style=flat-square" alt="Cline" />
   <img src="https://img.shields.io/badge/OpenAI-GPT-412991?style=flat-square" alt="OpenAI" />
   <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square" alt="Gemini" />
+  <img src="https://img.shields.io/badge/Ollama-Local_LLMs-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
 </div>
+
+<details>
+  <summary>🧩 工作流細節 — 點擊展開</summary>
+  <br />
+  <div align="center">
+    <b>Agent 編排</b><br />
+    <img src="https://img.shields.io/badge/MCP-Model_Context_Protocol-58A6FF?style=flat-square" alt="MCP" />
+    <img src="https://img.shields.io/badge/Dify-LLM_App_Platform-00B84F?style=flat-square" alt="Dify" />
+  </div>
+  <ul>
+    <li><b>MCP</b> — 標準工具介面，把 Agent 接到外部系統。</li>
+    <li><b>Dify</b> — 低程式碼平台，用來搭建與編排 LLM 應用與 Agent。</li>
+  </ul>
+  <div align="center">
+    <b>程式碼 Agent</b><br />
+    <img src="https://img.shields.io/badge/Cline-AI_Coding_Agent-FF6B35?style=flat-square" alt="Cline" />
+    <img src="https://img.shields.io/badge/Aider-AI_Coding_Assistant-7C3AED?style=flat-square" alt="Aider" />
+  </div>
+  <ul>
+    <li><b>Cline</b> — 編輯器內的自主程式 Agent，處理較大的多步驟任務。</li>
+    <li><b>Aider</b> — 終端機 AI 結對程式，處理日常程式編輯。</li>
+  </ul>
+  <div align="center">
+    <b>模型與本機執行</b><br />
+    <img src="https://img.shields.io/badge/OpenAI-GPT-412991?style=flat-square" alt="OpenAI" />
+    <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square" alt="Gemini" />
+    <img src="https://img.shields.io/badge/Ollama-Local_LLMs-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+  </div>
+  <ul>
+    <li><b>OpenAI / Gemini</b> — 經下方閘道使用的雲端模型。</li>
+    <li><b>Ollama</b> — 在本機跑開源模型，適合離線與私密工作流。</li>
+  </ul>
+  <div align="center">
+    <b>LLM 閘道與記憶</b><br />
+    <img src="https://img.shields.io/badge/LiteLLM-Unified_LLM_API-0EA5E9?style=flat-square" alt="LiteLLM" />
+    <img src="https://img.shields.io/badge/Mem0-Long-term_Memory-FF9900?style=flat-square" alt="Mem0" />
+  </div>
+  <ul>
+    <li><b>LiteLLM</b> — 一個代理 / SDK 接多家 LLM 提供者，統一路由、備援與頻率限制處理。</li>
+    <li><b>Mem0</b> — Agent 長期記憶層，跨對話保留使用者與專案脈絡。</li>
+  </ul>
+</details>
 
 <div align="center">
   <h3>⭐ 精選專案</h3>

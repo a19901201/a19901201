@@ -18,12 +18,54 @@
   <div align="center">
     <h3>🤖 AI &amp; Agent Workflow</h3>
     <img src="https://img.shields.io/badge/MCP-Model_Context_Protocol-58A6FF?style=flat-square" alt="MCP" />
-    <img src="https://img.shields.io/badge/Aider-AI_Coding_Assistant-7C3AED?style=flat-square" alt="Aider" />
     <img src="https://img.shields.io/badge/Dify-LLM_App_Platform-00B84F?style=flat-square" alt="Dify" />
     <img src="https://img.shields.io/badge/Cline-AI_Coding_Agent-FF6B35?style=flat-square" alt="Cline" />
     <img src="https://img.shields.io/badge/OpenAI-GPT-412991?style=flat-square" alt="OpenAI" />
     <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square" alt="Gemini" />
+    <img src="https://img.shields.io/badge/Ollama-Local_LLMs-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
   </div>
+
+  <details>
+    <summary>🧩 Workflow details — click to expand</summary>
+    <br />
+    <div align="center">
+      <b>Agent orchestration</b><br />
+      <img src="https://img.shields.io/badge/MCP-Model_Context_Protocol-58A6FF?style=flat-square" alt="MCP" />
+      <img src="https://img.shields.io/badge/Dify-LLM_App_Platform-00B84F?style=flat-square" alt="Dify" />
+    </div>
+    <ul>
+      <li><b>MCP</b> — standard tool interface connecting agents to external systems.</li>
+      <li><b>Dify</b> — low-code platform for building and orchestrating LLM applications and agents.</li>
+    </ul>
+    <div align="center">
+      <b>Coding agents</b><br />
+      <img src="https://img.shields.io/badge/Cline-AI_Coding_Agent-FF6B35?style=flat-square" alt="Cline" />
+      <img src="https://img.shields.io/badge/Aider-AI_Coding_Assistant-7C3AED?style=flat-square" alt="Aider" />
+    </div>
+    <ul>
+      <li><b>Cline</b> — autonomous coding agent inside the editor, used for larger multi-step tasks.</li>
+      <li><b>Aider</b> — terminal AI pair programmer for everyday code edits.</li>
+    </ul>
+    <div align="center">
+      <b>Models &amp; local runtime</b><br />
+      <img src="https://img.shields.io/badge/OpenAI-GPT-412991?style=flat-square" alt="OpenAI" />
+      <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square" alt="Gemini" />
+      <img src="https://img.shields.io/badge/Ollama-Local_LLMs-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+    </div>
+    <ul>
+      <li><b>OpenAI / Gemini</b> — cloud models used through the gateway below.</li>
+      <li><b>Ollama</b> — runs open models locally, for offline and private workflows.</li>
+    </ul>
+    <div align="center">
+      <b>LLM gateway &amp; memory</b><br />
+      <img src="https://img.shields.io/badge/LiteLLM-Unified_LLM_API-0EA5E9?style=flat-square" alt="LiteLLM" />
+      <img src="https://img.shields.io/badge/Mem0-Long-term_Memory-FF9900?style=flat-square" alt="Mem0" />
+    </div>
+    <ul>
+      <li><b>LiteLLM</b> — one proxy / SDK for many LLM providers, unified routing, fallback and rate-limit handling.</li>
+      <li><b>Mem0</b> — long-term memory layer for agents, keeps user and project context across sessions.</li>
+    </ul>
+  </details>
 
   <div align="center">
     <h3>⭐ Featured Project</h3>
