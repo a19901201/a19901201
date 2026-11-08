@@ -23,6 +23,8 @@
   <img src="https://img.shields.io/badge/OpenAI-GPT-412991?style=flat-square" alt="OpenAI" />
   <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square" alt="Gemini" />
   <img src="https://img.shields.io/badge/Ollama-Local_LLMs-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/badge/Qdrant-Vector_Database-DC60CE?style=flat-square&logo=qdrant&logoColor=white" alt="Qdrant" />
+  <img src="https://img.shields.io/badge/Hugging_Face-Models--Datasets-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
 </div>
 
 <details>
@@ -51,15 +53,24 @@
     <img src="https://img.shields.io/badge/OpenAI-GPT-412991?style=flat-square" alt="OpenAI" />
     <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square" alt="Gemini" />
     <img src="https://img.shields.io/badge/Ollama-Local_LLMs-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+    <img src="https://img.shields.io/badge/Hugging_Face-Models--Datasets-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
   </div>
   <ul>
     <li><b>OpenAI / Gemini</b> — 經下方閘道使用的雲端模型。</li>
     <li><b>Ollama</b> — 在本機跑開源模型，適合離線與私密工作流。</li>
+    <li><b>Hugging Face</b> — 模型與資料集樞紐，開源權重與 tokenizer 的來源。</li>
+  </ul>
+  <div align="center">
+    <b>向量檢索與 RAG</b><br />
+    <img src="https://img.shields.io/badge/Qdrant-Vector_Database-DC60CE?style=flat-square&logo=qdrant&logoColor=white" alt="Qdrant" />
+  </div>
+  <ul>
+    <li><b>Qdrant</b> — 向量資料庫，存放 embeddings 做檢索與 RAG 管線。</li>
   </ul>
   <div align="center">
     <b>LLM 閘道與記憶</b><br />
-    <img src="https://img.shields.io/badge/LiteLLM-Unified_LLM_API-0EA5E9?style=flat-square" alt="LiteLLM" />
-    <img src="https://img.shields.io/badge/Mem0-Long-term_Memory-FF9900?style=flat-square" alt="Mem0" />
+    <img src="https://img.shields.io/badge/LiteLLM-Unified--LLM--API-0EA5E9?style=flat-square" alt="LiteLLM" />
+    <img src="https://img.shields.io/badge/Mem0-Long--term--Memory-FF9900?style=flat-square" alt="Mem0" />
   </div>
   <ul>
     <li><b>LiteLLM</b> — 一個代理 / SDK 接多家 LLM 提供者，統一路由、備援與頻率限制處理。</li>

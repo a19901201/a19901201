@@ -23,6 +23,8 @@
     <img src="https://img.shields.io/badge/OpenAI-GPT-412991?style=flat-square" alt="OpenAI" />
     <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square" alt="Gemini" />
     <img src="https://img.shields.io/badge/Ollama-Local_LLMs-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+    <img src="https://img.shields.io/badge/Qdrant-Vector_Database-DC60CE?style=flat-square&logo=qdrant&logoColor=white" alt="Qdrant" />
+    <img src="https://img.shields.io/badge/Hugging_Face-Models--Datasets-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
   </div>
 
   <details>
@@ -51,15 +53,24 @@
       <img src="https://img.shields.io/badge/OpenAI-GPT-412991?style=flat-square" alt="OpenAI" />
       <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square" alt="Gemini" />
       <img src="https://img.shields.io/badge/Ollama-Local_LLMs-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+      <img src="https://img.shields.io/badge/Hugging_Face-Models--Datasets-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
     </div>
     <ul>
       <li><b>OpenAI / Gemini</b> — cloud models used through the gateway below.</li>
       <li><b>Ollama</b> — runs open models locally, for offline and private workflows.</li>
+      <li><b>Hugging Face</b> — model and dataset hub, source for open weights and tokenizers.</li>
+    </ul>
+    <div align="center">
+      <b>Vector search &amp; RAG</b><br />
+      <img src="https://img.shields.io/badge/Qdrant-Vector_Database-DC60CE?style=flat-square&logo=qdrant&logoColor=white" alt="Qdrant" />
+    </div>
+    <ul>
+      <li><b>Qdrant</b> — vector database for embeddings, retrieval and RAG pipelines.</li>
     </ul>
     <div align="center">
       <b>LLM gateway &amp; memory</b><br />
-      <img src="https://img.shields.io/badge/LiteLLM-Unified_LLM_API-0EA5E9?style=flat-square" alt="LiteLLM" />
-      <img src="https://img.shields.io/badge/Mem0-Long-term_Memory-FF9900?style=flat-square" alt="Mem0" />
+      <img src="https://img.shields.io/badge/LiteLLM-Unified--LLM--API-0EA5E9?style=flat-square" alt="LiteLLM" />
+      <img src="https://img.shields.io/badge/Mem0-Long--term--Memory-FF9900?style=flat-square" alt="Mem0" />
     </div>
     <ul>
       <li><b>LiteLLM</b> — one proxy / SDK for many LLM providers, unified routing, fallback and rate-limit handling.</li>
