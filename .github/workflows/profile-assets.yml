@@ -1,30 +1,27 @@
 name: Generate profile assets
 
 # Single workflow for all scheduled profile generators.
-# Before this consolidation there were three separate workflows
-# (trophy / snake / profile-3d) and they all referenced the same
-# personal access token through a secret named MY_README. That secret
-# is external to this repo, expires, and when missing or expired it
-# produced a bare `bearer ` header and HTTP 401 "Bad credentials"
-# on every daily run.
 #
-# Fix: use the automatic GITHUB_TOKEN. It is always present, never
-# expires, needs no secret setup, and has enough quota for these
-# three user-scoped reads (contributions, repositories, followers).
-# Trade-off: it only reads the repo owner, which is exactly what
-# these three generators do.
+# Root cause of the daily 401s (Nov 2026): the upstream trophy tool only
+# reads GITHUB_TOKEN1 / GITHUB_TOKEN2, while the old workflows passed
+# `secrets.MY_README`. When that secret is missing or expired the tool
+# sends a bare `bearer ` header and GitHub returns 401 Bad credentials
+# on every run. The fix is to use the automatic GITHUB_TOKEN, which is
+# always present, never expires, and needs no secret setup.
 #
-# Schedules are staggered so heavy jobs do not run at the same time,
-# and a single concurrency group per job prevents overlapping runs.
+# Resource policy (user-requested): run ONE generator per day, not all
+# three. A single daily cron (18:00 UTC) triggers the workflow, the
+# `pick` job computes the UTC day-of-year modulo 3, and only the
+# matching generator job runs (0=3D, 1=trophy, 2=snake, repeat).
+# Manual dispatch can still run any single generator, or `all` on demand.
 #
-# To stop the daily failure mails without touching code, disable a
-# job in the Actions tab or delete its file in .github/workflows.
+# To stop a generator entirely, delete its job below.
 
 on:
   schedule:
-    - cron: "0 17 * * *" # profile-3d, daily 17:00 UTC
-    - cron: "0 18 * * *" # trophy, daily 18:00 UTC
-    - cron: "0 19 * * *" # snake, daily 19:00 UTC
+    # One runner per day. Which generator runs is decided by the
+    # `pick` job below using the UTC day-of-year modulo 3.
+    - cron: "0 18 * * *" # daily 18:00 UTC
   workflow_dispatch:
     inputs:
       target:
@@ -49,10 +46,31 @@ env:
   TZ: UTC
 
 jobs:
+  pick:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    outputs:
+      pick: ${{ steps.pick.outputs.pick }}
+    steps:
+      - id: pick
+        run: |
+          DOY=$(date -u +%j)
+          PICK=$(( (10#$DOY) % 3 ))
+          case "$PICK" in
+            0) TARGET=profile-3d ;;
+            1) TARGET=trophy ;;
+            2) TARGET=snake ;;
+          esac
+          echo "UTC day-of-year=$DOY mod3=$PICK -> $TARGET"
+          echo "pick=$TARGET" >> "$GITHUB_OUTPUT"
+
   profile-3d:
+    needs: pick
     if: >-
-      github.event_name == 'schedule' ||
-      inputs.target == 'all' || inputs.target == 'profile-3d'
+      github.event_name == 'schedule' && needs.pick.outputs.pick == 'profile-3d' ||
+      github.event_name == 'workflow_dispatch' &&
+      (inputs.target == 'all' || inputs.target == 'profile-3d')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     concurrency:
@@ -90,9 +108,11 @@ jobs:
           fi
 
   trophy:
+    needs: pick
     if: >-
-      github.event_name == 'schedule' ||
-      inputs.target == 'all' || inputs.target == 'trophy'
+      github.event_name == 'schedule' && needs.pick.outputs.pick == 'trophy' ||
+      github.event_name == 'workflow_dispatch' &&
+      (inputs.target == 'all' || inputs.target == 'trophy')
     runs-on: ubuntu-latest
     timeout-minutes: 15
     concurrency:
@@ -147,9 +167,11 @@ jobs:
           fi
 
   snake:
+    needs: pick
     if: >-
-      github.event_name == 'schedule' ||
-      inputs.target == 'all' || inputs.target == 'snake'
+      github.event_name == 'schedule' && needs.pick.outputs.pick == 'snake' ||
+      github.event_name == 'workflow_dispatch' &&
+      (inputs.target == 'all' || inputs.target == 'snake')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     concurrency:
